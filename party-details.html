@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Birthday</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap');
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: #1a1209;
+      font-family: 'Roboto', sans-serif;
+      display: flex;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+
+    .page {
+      max-width: 700px;
+      width: 100%;
+      padding: 60px 50px;
+      background: #1a1209;
+      border: 2px solid #c9a84c;
+      border-radius: 4px;
+      position: relative;
+    }
+
+    .page::before {
+      content: '';
+      position: absolute;
+      inset: 8px;
+      border: 1px solid #6b5a2e;
+      border-radius: 2px;
+      pointer-events: none;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+      color: #c9a84c;
+    }
+
+    .intro {
+      font-size: 1.1rem;
+      line-height: 1.9;
+      text-align: justify;
+      margin-bottom: 30px;
+      color: #e8d5a3;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+      color: #c9a84c;
+    }
+
+    .details {
+      font-size: 1.1rem;
+      line-height: 2;
+      color: #e8d5a3;
+    }
+
+    .details p {
+      margin-bottom: 5px;
+    }
+
+    .closing {
+      font-size: 1.1rem;
+      line-height: 1.9;
+      text-align: justify;
+      margin-top: 30px;
+      color: #e8d5a3;
+    }
+
+    .divider {
+      text-align: center;
+      color: #c9a84c;
+      margin: 25px 0;
+      font-size: 1.2rem;
+      letter-spacing: 8px;
+    }
+
+    @media print {
+      body { background: #1a1209; padding: 0; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      .page { padding: 60px 50px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="divider">&spades; &hearts; &diams; &clubs;</div>
+    <h1>THE BIRTHDAY</h1>
+
+    <p class="intro">
+      Once upon a time in Hyderabad, our heroine Navya believed life's secret was "dress up, show up, and never say no to good food" — especially if it came with extra mirchi. She worships Prabhas like a demigod, paints her feelings onto canvas, and can talk for hours about anything from biryani to Baahubali. If there's art to admire, people to meet, or an outfit to slay — Navya is already there, front row.
+    </p>
+
+    <p class="intro">
+      So for her birthday, we're rolling out the red carpet — Casino Night style. Expect a night of high-stakes games, Hyderabadi street food, and enough drama to rival a Prabhas mass entry scene. Tonight, Navya isn't just a guest — she's the queen of her own blockbuster.
+    </p>
+
+    <div class="divider">&diams;</div>
+    <h2>PARTY DETAILS</h2>
+
+    <div class="details">
+      <p>- Where: 1618 West Geneva Road</p>
+      <p>- When: March 25th at 6:30 PM sharp</p>
+      <p>- Dress Code: Black Tie · Sequins · Suits · Sarees</p>
+    </div>
+
+    <p class="closing">
+      Get ready for a night of roulette spins, mirchi bajji, confetti showers, and a plot twist you won't see coming. The house always loses tonight — don't be late to your own premiere!
+    </p>
+    <div class="divider">&spades; &hearts; &diams; &clubs;</div>
+  </div>
+</body>
+</html>
