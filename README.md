@@ -1,2 +1,2 @@
-# himym-trivia
+# prabhas trivia
 a small trivia game
